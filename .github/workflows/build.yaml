@@ -17,5 +17,8 @@ jobs:
           dest: prompts-repo-build.zip
       - uses: actions/upload-artifact@v1
         with:
-          name: my-artifact
+          name: prompts-repo-build
           path: ${{ github.workspace }}/prompts-repo-build.zip
+      - uses: actions/download-artifact@v3
+        with:
+          name: prompts-repo-build
