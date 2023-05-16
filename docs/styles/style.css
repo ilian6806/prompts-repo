@@ -1,0 +1,14 @@
+html, body {
+    width: 100%;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+}
+
+.github-ribon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+}
