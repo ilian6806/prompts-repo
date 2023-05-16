@@ -1,0 +1,17 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  zip-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: vimtor/action-zip@v1
+        with:
+          files: dist/
+          recursive: true
+          dest: prompts-repo.zip
