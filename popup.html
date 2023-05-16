@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="popup.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <textarea id="newText" type="text" class="form-control" placeholder="Prompt"></textarea>
+        <div class="text-center mt-2 mb-2">
+            <button id="addText" class="btn btn-sm btn-primary">Add</button>
+            <button id="exportTexts" class="btn btn-sm btn-primary">Export</button>
+            <button id="importTexts" class="btn btn-sm btn-primary">Import</button>
+        </div>
+        <input id="importFile" type="file" style="display:none;" accept=".json" />
+        <input id="searchInput" type="text" placeholder="Search" class="form-control">
+        <ul id="textList" class="list-group"></ul>
+    </div>
+</body>
+
+</html>

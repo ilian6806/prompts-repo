@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Prompts Repo",
+    "version": "1.0",
+    "description": "Chrome extension for keeping Chat GPT prompts",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "24": "images/icon24.png",
+            "48": "images/icon48.png",
+            "96": "images/icon96.png"
+        }
+    },
+    "permissions": [
+        "clipboardWrite",
+        "storage",
+        "activeTab",
+        "tabs",
+        "scripting"
+    ]
+}
