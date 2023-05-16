@@ -15,3 +15,7 @@ jobs:
           files: dist/
           recursive: true
           dest: prompts-repo.zip
+      - uses: actions/upload-artifact@v1
+        with:
+          name: my-artifact
+          path: ${{ github.workspace }}/prompts-repo.zip
