@@ -20,5 +20,8 @@ You can clone this repo or download it from [here](https://ilian6806.github.io/p
 
 P.S.: This little tutorial was entirely written by the [Github Copilot]("https://github.com/features/copilot")!
 
+### Usage
+
+Demo video: [https://www.youtube.com/watch?v=tcQpFOX052g](https://www.youtube.com/watch?v=tcQpFOX052g)
 
 Feel free to contribute!
